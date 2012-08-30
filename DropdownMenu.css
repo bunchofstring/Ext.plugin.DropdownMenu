@@ -1,0 +1,13 @@
+.menuwrapper .x-anchor.x-anchor-top{
+	margin-top:-0.67em !important;
+	/*Hack to make up for shoddy webkit mask support on Android*/
+	-webkit-mask: 0 0 none no-repeat !important;
+	background:transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPZJREFUeNpi/PX7LwOFwAyIG6HseiA+Ra5BjBQ6xg+IVwAxJ5T/HYgjgHgTOYYxUeCQUiBeh+QQBih7HVSOLiHDDMSTgTiTgLrpQJwLxH9p5RhOaLT4EakeFF3RQPyF2o6RhkaBGYkheRmIPYH4KbXSjC4QnyTDIch6danhGCcgPgwNGXKBNNQMb0ocEwXE24GYn4FyADJjI76Ej88x7UC8FIjZGKgHQDlxGtRsZmISMMjy+dBQoSXYBC0gv+NyDD80xzgx0AeAqg4fIH6NHk0qQHyMjg6B1WvHYDkNFjIgwS1ALMowMOAjEAeBHINe2Q0U+AUQYACQ10C2QNhRogAAAABJRU5ErkJggg==') 50% 0 !important;
+}
+.menuwrapper{
+	margin-top:-0.7em !important;
+	background-color:white !important;
+}
+.menuwrapper .x-list-item:last-child .x-list-item-label{
+	border-bottom-color:white !important;
+}
